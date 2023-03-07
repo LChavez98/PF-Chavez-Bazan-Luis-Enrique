@@ -1,0 +1,34 @@
+
+#galeria {
+	.col-lg-4 {
+		&:hover {
+			border: 3px solid $color_4;
+			background-color: $background-color_3;
+		}
+		background-color: $background-color_2;
+        padding: 25px;
+	}
+	img {
+		width: 100%;
+		height: 250px;
+	}
+	.text-center {
+		padding: 30px;
+	}
+}
+.container-Div {
+	p {
+		margin: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	span {
+		margin: 0;
+		display: block;
+		text-align: center;
+		padding-top: 10px;
+	}
+}

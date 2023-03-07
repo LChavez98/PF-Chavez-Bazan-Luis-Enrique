@@ -1,0 +1,51 @@
+// Principal
+@mixin aling{
+    text-align: center;
+    margin: 0;
+}
+@media (max-width: 650px) {
+	.banner {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		height: 520px;
+		h1 {
+			text-align: center;
+			margin: 0;
+			font-size: 5rem;
+		}
+		p {
+			text-align: center;
+			margin: 0;
+			font-size: 1rem;
+		}
+	}
+	.superior {
+		p {
+			font-size: 12px;
+		}
+	}
+	.inferior {
+		padding: 20px;
+		font-size: 12px;
+	}
+}
+// especialidad
+@media (max-width: 1100px) {
+	.slide {
+		margin: 15px;
+		padding: 0;
+	}
+}
+// contacto
+@media (max-width: 1000px) {
+	.espacio {
+		margin: 10px 20px;
+	}
+	.pad {
+		padding-top: 20px;
+	}
+	.ceter {
+		padding-bottom: 20px;
+	}
+}

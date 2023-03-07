@@ -1,0 +1,30 @@
+
+.informacion {
+	background-color: $background-color_1;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	color: $color_1;
+	margin-top: auto;
+}
+.info {
+	margin-top: 20px;
+	width: 140px;
+	font-size: 10px;
+	a {
+		text-decoration: none;
+		color: $color_1;
+		display: block;
+	}
+}
+.item {
+	margin-right: 4px;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	img {
+		width: 120px;
+	}
+}
